@@ -25,6 +25,14 @@ eureka:
     instance:
       instance-id: payment8002
       prefer-ip-address: true     #访问路径可以显示IP地址
+
+info:
+  app.name: atguigu-cloud2020
+  company.name: www.atguigu.com
+  build.artifactId: "cloud-provider-payment8002"
+  build.version: "1.0-SNAPSHOT"
+
+
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
