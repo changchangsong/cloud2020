@@ -1,12 +1,16 @@
 package com.atguigu.springcloud.alibaba.domain;
 
+import lombok.Data;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * @auther zzyy
  * @create 2020-02-26 15:16
  */
-public class Order
+@Data
+public class Order  implements Serializable
 {
     private Long id;
 
@@ -19,9 +23,6 @@ public class Order
     private BigDecimal money;
 
     private Integer status; //订单状态：0：创建中；1：已完结
-
-    public Order() {
-    }
 
     public Order(Long id, Long userId, Long productId, Integer count, BigDecimal money, Integer status) {
         this.id = id;

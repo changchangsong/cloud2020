@@ -1,8 +1,11 @@
 package com.atguigu.springcloud.alibaba.domain;
 
-import java.math.BigDecimal;
+import lombok.Data;
 
-public class Account {
+import java.io.Serializable;
+import java.math.BigDecimal;
+@Data
+public class Account  implements Serializable {
 
     private Long id;
 

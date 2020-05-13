@@ -1,6 +1,11 @@
 package com.atguigu.springcloud.alibaba.domain;
 
-public class Storage {
+import lombok.Data;
+
+import java.io.Serializable;
+
+@Data
+public class Storage implements Serializable {
 
     private Long id;
 

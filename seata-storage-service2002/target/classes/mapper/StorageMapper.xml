@@ -16,7 +16,7 @@
         UPDATE
             t_storage
         SET
-            used = used + #{count},residue = residue - #{count}
+            used = used + ${count},residue = residue - ${count}
         WHERE
             product_id = #{productId}
     </update>

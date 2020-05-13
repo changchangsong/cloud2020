@@ -1,8 +1,8 @@
 package com.atguigu.springcloud.alibaba.controller;
 
-import com.atguigu.springcloud.alibaba.domain.CommonResult;
 import com.atguigu.springcloud.alibaba.domain.Order;
 import com.atguigu.springcloud.alibaba.service.OrderService;
+import com.atguigu.springcloud.entities.CommonResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
