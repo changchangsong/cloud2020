@@ -13,7 +13,7 @@ spring:
         dashboard: localhost:8080 #配置Sentinel dashboard地址
         port: 8719
       datasource:
-        ds1:
+        dsl:
           nacos:
             server-addr: localhost:8848
             dataId: cloudalibaba-sentinel-service
